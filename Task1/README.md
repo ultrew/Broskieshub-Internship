@@ -2,7 +2,7 @@
 
 **Intern:** [Tanishq Nama]
 
-**Internship:** [Broskieshub]
+**Internship:** [Broskieshub.com]
 
 **Environment:** Kali Linux (host), DVWA v1.10, Burp Suite, Browser: Brave.
 
@@ -10,7 +10,7 @@
 
 ## 1. Executive Summary
 
-I conducted a focused set of web application security tests against a controlled target (DVWA). My objective was to identify, exploit (in a lab environment), and document the following common vulnerabilities: **Command Injection**, **File Inclusion (LFI/RFI)**, **SQL Injection**, and **Authentication Brute-Force**. For each vulnerability I describe my approach, proof-of-concept (PoC) evidence (screenshots saved in `/screenshots`), risk assessment, and recommended fixes. testing was performed on authorized systems and in a lab environment.
+I conducted a focused set of web application security tests against a controlled target (DVWA). My objective was to identify, exploit (in a lab environment), and document the following common vulnerabilities: **Command Injection**, **File Inclusion (LFI/RFI)**, **SQL Injection**, and **Authentication Brute-Force**. For each vulnerability I describe my approach, proof-of-concept (PoC) evidence (screenshots saved in `/Screenshots`), risk assessment, and recommended fixes. testing was performed on authorized systems and in a lab environment.
 
 ---
 
@@ -26,8 +26,7 @@ I conducted a focused set of web application security tests against a controlled
 
 - **Scope:** Target:  (DVWA). Only the listed endpoints and services were tested.
 - **Authorization:** I have explicit permission to test the target in the lab environment.
-- **Tools used:** Kali Linux, Burp Suite, other CLI utilities.
-- **Data handling:** Screenshots saved to the `/screenshots` and files used in `/files` directories.
+- **Tools used:** Kali Linux, Burp Suite, Brave browser.
 
 ---
 
@@ -63,7 +62,7 @@ I followed a simple repeatable process for each vulnerability:
 4. BOOM! we got passwords and saved the screenshot as (Command_Injection.png)
 
 **Evidence (screenshots/logs)**
-- `screenshots/Command_Injection.png` — Response showing passwd data.
+- ![Command Injection](Screenshots/Command_Injection.png) — Response showing passwd data.
 
 **Impact / Risk —** Remote command execution can lead to full system compromise, data exposure, or lateral movement. Severity: **High**.
 
