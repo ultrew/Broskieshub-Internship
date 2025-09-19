@@ -177,15 +177,15 @@ $stmt->execute([':u' => $username, ':p' => $password]);
 **Evidence (screenshots/logs)**
 - Intruder with login request
   
-- ![](Screenshots/Brute_force1.png)
+![](Screenshots/Brute_force1.png)
   
 - Burpsuit showing brute force attack
 
-- ![](Screenshots/Brute_force2.png)
+![](Screenshots/Brute_force2.png)
 
 - Burp repeter showing successful login for admin:password
 
-- ![](Screenshots/Brute_force3[repeter].png)
+![](Screenshots/Brute_force3[repeter].png)
 
 **Impact / Risk —** Account takeover, especially for accounts with weak passwords or reused credentials. Severity: **Medium/High**.
 
