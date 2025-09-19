@@ -167,7 +167,7 @@ $stmt->execute([':u' => $username, ':p' => $password]);
 **Reproduction Steps (PoC)**
 - I captured a normal login request in Burp Suite Proxy during a legitimate login flow.
 - Sent the captured request to **Intruder** in Burp Suite.
-- Configured Intruder using the **Sniper** attack type, set the `password` parameter as the payload position, and loaded a focused [Pass_wordlist](Task1/Resources/pass_best110.txt) as the payload.
+- Configured Intruder using the **Sniper** attack type, set the `password` parameter as the payload position, and loaded a focused [Pass_wordlist](Resources/pass_best110.txt) as the payload.
 - Launched the Sniper attack and monitored responses for anomalies (response length, status, or distinctive body differences) that indicate a successful attempt.
 - Identified a candidate password from Intruder that produced a noticeably different/successful response.
 - Replayed the successful payload in **Repeater** to confirm — the Repeater response returned the authenticated page (dashboard/home content), demonstrating a successful login with the discovered password.
