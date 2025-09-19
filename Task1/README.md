@@ -105,7 +105,9 @@ $output = shell_exec("ping -c 4 $escaped");
 1. I supplied payloads like `?page=../../../../../../etc/passwd` to check local file access.
 
 **Evidence (screenshots/logs)**
-- [[File_Inclusion[LFI].png]]` — Partial `/etc/passwd` content displayed.
+- Partial `/etc/passwd` content displayed.
+ 
+![](Screenshots/File_Inclusion[LFI].png)
 
 **Impact / Risk —** LFI can leak sensitive files; combined with upload or log poisoning, it may lead to remote code execution. Severity: **High**.
 
@@ -136,8 +138,10 @@ include __DIR__ . '/pages/' . $page . '.php';
 **Reproduction Steps (PoC)**
 1. I tested with simple payloads: `' OR '1'='1` and observed getting access to many user's data.
 
-**Evidence (screenshots/logs)**
-- [[SQL_Injection.png]] — User data access.
+**Evidence (screenshot)**
+- User data access.
+
+![](Screenshots/SQL_Injection.png)
 
 **Impact / Risk —** Data leakage, authentication bypass, or in some cases remote code execution. Severity: **High/Medium** depending on exposure.
 
@@ -171,9 +175,17 @@ $stmt->execute([':u' => $username, ':p' => $password]);
 - During the attack window I observed repeated successful/200 responses and no account lockout or progressive throttling.
 
 **Evidence (screenshots/logs)**
-- ![Intruder with login request](Screenshots/Brute_force1.png)
-- ![Burpsuit showing brute force attack](Screenshots/Brute_force2[password attack].png)
-- ![Burp repeter showing successful login for admin:password](Screenshots/Brute_force3[repeter].png)
+- Intruder with login request
+  
+- ![](Screenshots/Brute_force1.png)
+  
+- Burpsuit showing brute force attack
+
+- ![](Screenshots/Brute_force2.png)
+
+- Burp repeter showing successful login for admin:password
+
+- ![](Screenshots/Brute_force3[repeter].png)
 
 **Impact / Risk —** Account takeover, especially for accounts with weak passwords or reused credentials. Severity: **Medium/High**.
 
