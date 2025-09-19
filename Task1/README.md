@@ -63,6 +63,7 @@ I followed a simple repeatable process for each vulnerability:
 
 **Evidence (screenshots/logs)**
 - Response showing passwd data.
+  
 ![](Screenshots/Command_Injection.png)
 
 **Impact / Risk —** Remote command execution can lead to full system compromise, data exposure, or lateral movement. Severity: **High**.
