@@ -62,9 +62,8 @@ I followed a simple repeatable process for each vulnerability:
 4. BOOM! we got passwords and saved the screenshot as (Command_Injection.png)
 
 **Evidence (screenshots/logs)**
-![Command Injection](Screenshots/Command_Injection.png)
-
 - Response showing passwd data.
+![](Screenshots/Command_Injection.png)
 
 **Impact / Risk —** Remote command execution can lead to full system compromise, data exposure, or lateral movement. Severity: **High**.
 
