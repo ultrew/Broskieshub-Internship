@@ -211,6 +211,40 @@ During this internship I deepened my practical knowledge of web vulnerabilities 
 
 ---
 
+### Interview Questions & Answers
+1. **What is SQL Injection?**
+   **Answer:** SQL Injection is a vulnerability allowing attackers to manipulate database queries via malicious input, potentially leaking or modifying data.
+
+2. **How does Cross-Site Scripting (XSS) work?**
+   **Answer:** XSS allows attackers to inject scripts into web pages, executing in other users' browsers, stealing sessions, or redirecting users.
+
+3. **What is the OWASP Top 10?**
+   **Answer:** The OWASP Top 10 lists the most critical web application security risks and mitigation guidelines.
+
+4. **How can you prevent SQLi in applications?**
+   **Answer:** Use parameterized queries, input validation, least-privilege database accounts, and ORM frameworks.
+
+5. **What tools are used to find web vulnerabilities?**
+   **Answer:** Burp Suite, OWASP ZAP, sqlmap, Nikto, Nmap, and manual testing.
+
+6. **What is the difference between GET and POST requests?**
+   **Answer:** GET retrieves resources with parameters in the URL; POST sends data in the body, used for state-changing operations.
+
+7. **What does Burp Suite do?**
+   **Answer:** Burp Suite is an intercepting proxy for capturing, modifying, and replaying HTTP/S traffic, and scanning web apps for vulnerabilities.
+
+8. **Why is input validation important?**
+   **Answer:** Input validation ensures only correctly formed data enters the system, preventing injections and errors.
+
+9. **What is session hijacking?**
+   **Answer:** Session hijacking occurs when attackers steal or guess session tokens to impersonate users.
+
+10. **What is the Same-Origin Policy?**
+    **Answer:** The Same-Origin Policy restricts scripts on one origin from accessing resources on another, protecting against malicious cross-origin interactions.
+
+
+---
+
 **End of report**.
 
 
