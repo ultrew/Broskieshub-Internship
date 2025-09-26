@@ -6,8 +6,8 @@
 ---
 
 ## Lab setup
-- Attacker (Kali): `192.168.56.20`  
-- Victim (Win7): `192.168.56.10`  
+- Attacker (Kali): `192.168.56.10`  
+- Victim (Win7): `192.168.56.20`  
 - Network: VirtualBox **Internal Network** `labnet` (isolated from public internet)
 
 ![](Screenshots/kali_net.png)
