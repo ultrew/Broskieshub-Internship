@@ -1,4 +1,4 @@
-# Task-6 — DNS Spoofing Attack Simulation (Brief)
+# Task-6 — DNS Spoofing Attack
 
 **Internship:** Broskieshub.com
 **Objective :** I set up an isolated VirtualBox lab (`labnet`) and simulated a DNS spoofing attack to demonstrate how DNS responses can be manipulated to redirect a victim to an attacker‑controlled page.
@@ -24,7 +24,7 @@
 
 ---
 
-## Commands I ran (exact, in order)
+## Commands I ran
 
 **On Kali (attacker) — host fake site**
 ```bash
