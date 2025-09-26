@@ -1,7 +1,9 @@
 # Task 2 : Password Cracking with Hashcat 🧑‍💻
 
 **My Name:** Tanishq Nama
+
 **Internship:** Broskieshub.com
+
 **My Objective:** I need to crack a given list of password hashes using dictionary and brute-force attacks. Afterwards, I'll document my methods, results, and what I recommend for mitigation in a formal report.
 
 ---
