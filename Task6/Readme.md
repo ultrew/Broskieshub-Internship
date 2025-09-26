@@ -59,8 +59,6 @@ sudo tcpdump -i eth0 -n udp port 53
 
 ```cmd
 ipconfig /flushdns
-nslookup example.com
-# then open http://example.com in the browser
 ```
 
 ![](Screenshots/win7_flushdns.png)
