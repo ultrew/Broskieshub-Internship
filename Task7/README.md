@@ -44,26 +44,47 @@ sha256sum malware | tee hashes.txt
 sha1sum malware >> hashes.txt
 md5sum malware  >> hashes.txt
 cat hashes.txt
+```
 
+![](Screenshots/01_Hashes.png)
+
+```bash
 # extract readable strings
 strings -a -n 4 malware | tee strings_output.txt
+```
 
+![](Screenshots/02_strings.png)
+
+```bash
 # hexdump to inspect bytes and find embedded MZ
 hexdump -C malware | less
 # quick locate MZ occurrences (prints byte offsets in decimal)
 grep -b -a -o $'\x4d\x5a' malware
+```
 
+![](Screenshots/03_hexdump.png)
+
+```bash
 # file metadata / headers
 file malware > file_type.txt
 readelf -h malware > readelf_header.txt
 objdump -x malware > objdump_full.txt
+```
 
+![](Screenshots/04_file_info.png)
+
+```bash
 # manually inspect in Ghidra:
 # - ghidraRun
 # - File -> New Project -> Import ./malware -> run auto-analysis
 # - Window -> Defined Strings (look for MZ/cmd/CONNECT_BACK)
 # - Open main() and press F for decompiled pseudocode
-````
+```
+
+![](Screenshots/05_defined_strings.png)
+
+![](Screenshots/06_function_and_imports.png)
+
 ---
 
 ## Screenshots I included
