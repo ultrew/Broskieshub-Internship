@@ -1,5 +1,7 @@
 # Task 7 — Static Malware Analysis
+
 ## Internship: Broskieshub.com 
+
 ## Overview
 I performed a static analysis of the provided sample ( which I created using ai ) without executing it. All work was done on my Kali host using `strings`, `hexdump`, Ghidra, and VirusTotal (hash lookup only). This README explains what I checked, what I found, and how to reproduce my steps.
  
