@@ -84,6 +84,10 @@ objdump -x malware > objdump_full.txt
 
 ![](Screenshots/06_function_and_imports.png)
 
+- Virustotal 
+
+![](Screenshots/07_virus_total.png)
+
 ---
 
 ## Screenshots I included
