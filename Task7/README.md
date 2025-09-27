@@ -30,7 +30,7 @@ I performed a static analysis of the provided sample ( which I created using ai 
 
 ---
 
-## How I reproduced my work (commands I ran)
+## How I reproduced (commands I ran)
 > Run these in a controlled environment.
 
 ```bash
