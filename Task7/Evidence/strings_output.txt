@@ -1,0 +1,43 @@
+/lib64/ld-linux-x86-64.so.2
+puts
+__libc_start_main
+__cxa_finalize
+libc.so.6
+GLIBC_2.2.5
+GLIBC_2.34
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_ITM_registerTMCloneTable
+PTE1
+u+UH
+ThisLooksLikePE|cmd.exe /c whoami /all|CONNECT_BACK
+UEsDBBQAAAAI
+Hello - static analysis practice binary
+;*3$"
+GCC: (Debian 14.3.0-5) 14.3.0
+.shstrtab
+.note.gnu.property
+.note.gnu.build-id
+.interp
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.note.ABI-tag
+.init_array
+.fini_array
+.dynamic
+.got.plt
+.data
+.bss
+.comment
