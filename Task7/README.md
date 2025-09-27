@@ -77,8 +77,7 @@ objdump -x malware > objdump_full.txt
 # manually inspect in Ghidra:
 # - ghidraRun
 # - File -> New Project -> Import ./malware -> run auto-analysis
-# - Window -> Defined Strings (look for MZ/cmd/CONNECT_BACK)
-# - Open main() and press F for decompiled pseudocode
+# - Window -> Defined Strings (look for MZ/cmd/CONNECT_BACK
 ```
 
 ![](Screenshots/05_defined_strings.png)
