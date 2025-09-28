@@ -90,7 +90,7 @@ with Listener(on_press=on_press, on_release=on_release) as listener:
 ![](Screenshots/03_script_run.png)
 
 ## Captured Logs 
-`These also can be found at [Logs](Evidences/keylog.txt)`
+These also can be found at [Logs](Evidences/keylog.txt)
 
 ```
 2025-09-28 15:53:20,828: Key.shift_r  
