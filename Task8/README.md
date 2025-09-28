@@ -40,7 +40,7 @@ I’m building a simple keylogger in Python using the `pynput` library to demons
 
 - After I install `pynput` (showing pip output).
 
-![](/Screenshots/02_pynput.png)
+![](Screenshots/02_pynput.png)
 
 ## Source Code
 
