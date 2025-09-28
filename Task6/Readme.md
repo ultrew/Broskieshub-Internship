@@ -90,4 +90,19 @@ sudo pkill dnschef || true
 sudo rm -rf /var/www/html/fake_example
 ```
 ---
+
+# DNS Spoofing Interview Questions
+
+1. **What is DNS spoofing?** — Forging DNS responses so a domain resolves to an attacker-controlled IP.
+2. **How does DNS resolution work?** — A resolver queries recursive resolver → root → TLD → authoritative servers to get an IP for a name.
+3. **What tools can simulate DNS spoofing?** — `dnsspoof`, `dnschef`, `Responder`, `mitmproxy`, and `ettercap`.
+4. **What is a man-in-the-middle (MITM) attack?** — Intercepting and potentially modifying traffic between two parties without their knowledge.
+5. **How can DNS spoofing be prevented?** — Use DNSSEC, DoH/DoT, secure resolvers, network segmentation, and monitoring.
+6. **What are the risks of DNS attacks?** — Phishing, credential theft, malware distribution, traffic interception, data exfiltration, and reputational loss.
+7. **What is ARP spoofing vs DNS spoofing?** — ARP spoofing poisons local IP↔MAC mappings; DNS spoofing poisons name→IP mappings.
+8. **What is DNSSEC?** — DNS extensions that add cryptographic signatures to verify DNS record authenticity and integrity.
+9. **How do browsers validate DNS responses?** — Browsers rely on the OS/resolver for DNS and validate endpoints with TLS certificate checks; DoH/DoT and DNSSEC/DANE add extra assurance.
+10. **How does DNS caching affect spoofing?** — Poisoned cache entries persist until TTL expiry or purge, spreading and prolonging impact.
+
+---
 End of report.
