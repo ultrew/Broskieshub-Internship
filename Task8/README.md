@@ -79,7 +79,7 @@ with Listener(on_press=on_press, on_release=on_release) as listener:
     python keylogger.py
     ```
     
-3. I type sample input (e.g., “Hello, this is a test!” or special keys like Enter).
+3. I type sample input.
 4. I press ESC to stop.
 5. I view the logs in `keylog.txt`.
 
@@ -90,7 +90,7 @@ with Listener(on_press=on_press, on_release=on_release) as listener:
 ![](Screenshots/03_script_run.png)
 
 ## Captured Logs 
-`These also can be found at [Logs](Evidencescec/keylog.txt)`
+`These also can be found at [Logs](Evidences/keylog.txt)`
 
 ```
 2025-09-28 15:53:20,828: Key.shift_r  
