@@ -1,5 +1,7 @@
 # Task-10 : Password Strength Analyzer
 
+## Internship at : Broskieshub.com
+
 ## Overview
 In this project I develops a Python tool to evaluate password strength based on predefined rules, providing feedback to enhance security.
 
@@ -13,7 +15,7 @@ In this project I develops a Python tool to evaluate password strength based on 
 
 ## Deliverables
 - [Script](Evidence/password_checker.py): Python script for password analysis
-- Input screenshot.
+- Script ranning.
 
 ![](Screenshots/00_script_run.jpg)
 
@@ -47,3 +49,4 @@ In this project I develops a Python tool to evaluate password strength based on 
 ---
 
 End of report.
+
