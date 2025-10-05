@@ -26,7 +26,7 @@ In this project I develops a Python tool to evaluate password strength based on 
 
 ## Usage
 1. Run `python password_checker.py`
-2. Enter a password or 'exit' to quit
+2. Enter a password or 'ctrl + c' to quit
 3. View strength level and feedback
 
 ## Outcome
@@ -49,4 +49,5 @@ In this project I develops a Python tool to evaluate password strength based on 
 ---
 
 End of report.
+
 
