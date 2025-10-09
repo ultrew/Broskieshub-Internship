@@ -1,7 +1,0 @@
-streamlit
-pillow
-opencv-python-headless
-stegano
-reportlab
-scikit-learn
-numpy
