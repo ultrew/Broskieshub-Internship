@@ -9,7 +9,7 @@ This directory contains basic information about the tool **Greymeter** project �
 This project is maintained in its own dedicated repository.  
 For the full project details, documentation, and to clone the project, please visit the main repository here:
 
-🔗 [Greymeter Repository](https://github.com/ultrew/Greymeter)
+🔗 [Greymeter](https://github.com/ultrew/Greymeter)
 
 ---
 
