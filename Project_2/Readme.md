@@ -50,6 +50,6 @@ A step-by-step video demo showcasing phishing detection in action, dashboard ins
 ***
 
 End of report.
-This version is concise, highlights distinctive features, and is formatted for clarity. It is ideal for professional presentations, GitHub README.md, or sharing on your portfolio or LinkedIn. If you need a more technical breakdown or prefer a shorter summary, let me know![1]
+ or sharing on your portfolio or LinkedIn. If you need a more technical breakdown or prefer a shorter summary, let me know![1]
 
-[1](https://github.com/ultrew/Ai_Phishing_Detector)
+[1](https://github.com/ultrew
